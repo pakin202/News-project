@@ -1,0 +1,116 @@
+:root {
+    --grayray : #666;
+    --green-bitkub : #00d370;
+    --white : #ffffff;
+}
+
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    padding: 2rem;
+    background-color: #ffffff;
+}
+.containner {
+    background-color: #ffffff;
+    border-radius: 2px;
+    box-shadow: 0 0 5px #555;
+    padding: 2rem;
+}
+
+.bottom-right {
+    width: 20rem;
+    height: 35rem;
+}
+.top{
+    width: 100%;
+    height: .7rem 0;
+}
+
+.top h2 {
+    color: var(--green-bitkub);
+}
+.middle{
+    width: 100%;
+    margin-top: 10px;
+    padding: 1;
+    display: flex;
+    overflow: auto;
+    cursor: pointer;
+    border-bottom: 2px solid #dad1d1 ;
+    cursor: pointer;
+
+
+}
+.middle div {
+    padding: .5rem;
+    display: flex;
+    
+    
+
+}
+.middle p {
+    display: inline-block;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-right: 5px;
+    font-weight: 500;
+
+}
+.middle::-webkit-scrollbar{
+    display: none;
+
+}
+.green{
+    padding-left: 8px;
+    border-bottom: 3px solid var(--green-bitkub) ;
+
+}
+.bottom{
+    width: 100%;
+    height: 70%;
+    overflow: auto;
+    cursor: pointer;
+    
+    
+}
+img{
+    padding: 1rem;
+    width: 7rem;
+    
+}
+
+.new {
+    padding: .5rem;
+    margin: auto;
+    width: 100%;
+    height: 7rem;
+    border-bottom: 2px solid #dad1d1 ;
+    display: flex;
+    
+}
+.info h3{
+
+    font-size: 14px;
+    padding-top: 1rem;
+}
+.info h4 {
+    margin-top: 1rem;
+    font-size: 12px;
+    color: #bbb;
+}
+.info :hover{
+    color : #00d370 ;
+}
+.middle :hover{
+    background-color: #bbb;
+}
+    
+    
+
